@@ -1,0 +1,6 @@
+export const LIST_CATEGORYDETAIL_REQUEST =
+  "listCategoryDetailReducer/LIST_CATEGORYDETAIL_REQUEST";
+export const LIST_CATEGORYDETAIL_SUCCESS =
+  "listCategoryDetailReducer/LIST_CATEGORYDETAIL_SUCCESS";
+export const LIST_CATEGORYDETAIL_FAILED =
+  "listCategoryDetailReducer/LIST_CATEGORYDETAIL_FAILED";

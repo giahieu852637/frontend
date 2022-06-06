@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100&display=swap");
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+}
+
+dl,
+ol,
+ul {
+  margin-bottom: 0;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  background-color: #f6fcff;
+}
+.textDescription {
+  color: #707070;
+}
+.bg-blue {
+  background-color: #384b63;
+  color: #fff;
+  &:hover {
+    background-color: #14bdd1;
+  }
+}

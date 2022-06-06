@@ -1,0 +1,40 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  .container-fluid {
+    .logo-text {
+      font-weight: 700 !important;
+      font-size: 2rem !important;
+    }
+    .navbar-nav {
+      color: black !important;
+      li {
+        a {
+          position: relative;
+          &::after {
+            content: "";
+            height: 3px;
+            position: absolute;
+            background: $pink;
+            left: 0;
+            width: 0%;
+            bottom: -5px;
+            transition: all 0.5s;
+            opacity: 0;
+          }
+          &:hover {
+            color: $purple;
+            &::after {
+              opacity: 1;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

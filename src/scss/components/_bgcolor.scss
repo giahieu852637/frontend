@@ -1,0 +1,29 @@
+.bg-yellow {
+  background-color: #fcedd6;
+  color: #e4b295;
+}
+.bg-links {
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 5 px;
+  width: 95%;
+  background-color: #384b63;
+  transition: width 0.3s, height 4s;
+  &:hover {
+    width: 100%;
+  }
+}
+.bg-links-active {
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 5 px;
+  width: 100%;
+  background-color: #ffbb00;
+  transition: width 0.3s, height 4s;
+
+}
+.text-bludenhat {
+  color: #2a6496;
+}

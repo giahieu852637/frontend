@@ -1,0 +1,22 @@
+.Slider {
+  #carouselControls {
+    .carousel-item {
+      .img-cover {
+        height: 600px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+    .carousel-control-prev {
+      &:hover {
+        background: linear-gradient(to left, rgba(0, 0, 0, 0), #3f3f3f);
+      }
+    }
+    .carousel-control-next {
+      &:hover {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0), #3f3f3f);
+      }
+    }
+  }
+}

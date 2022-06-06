@@ -1,0 +1,79 @@
+{
+    "name": "ChinhQuyenPKI",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@emotion/react": "^11.5.0",
+        "@emotion/styled": "^11.3.0",
+        "@material-ui/core": "^4.12.3",
+        "@mui/material": "^5.0.4",
+        "@popperjs/core": "^2.10.2",
+        "@testing-library/jest-dom": "^5.11.4",
+        "@testing-library/react": "^11.1.0",
+        "@testing-library/user-event": "^12.1.10",
+        "animate.css": "^4.1.1",
+        "axios": "^0.23.0",
+        "bootstrap": "^5.1.3",
+        "datatables.net": "^1.11.3",
+        "datatables.net-dt": "^1.11.3",
+        "font-awesome": "^4.7.0",
+        "jquery": "^3.6.0",
+        "mdb-react-ui-kit": "^1.5.0",
+        "mdbootstrap": "^4.20.0",
+        "node-sass": "^6.0.1",
+        "popper.js": "^1.14.3",
+        "react": "^17.0.2",
+        "react-bootstrap-date-picker": "^5.1.0",
+        "react-data-table-component": "^7.4.5",
+        "react-datepicker": "^4.3.0",
+        "react-dom": "^17.0.2",
+        "react-facebook-login": "^4.1.1",
+        "react-file-viewer-extended": "^2.0.3",
+        "react-google-login": "^5.2.2",
+        "react-hot-toast": "^2.1.1",
+        "react-redux": "^7.2.5",
+        "react-router": "^5.2.1",
+        "react-router-dom": "^5.3.0",
+        "react-scripts": "4.0.3",
+        "react-slick": "^0.28.1",
+        "react-use-googlelogin": "^0.12.5",
+        "redux": "^4.1.1",
+        "redux-thunk": "^2.3.0",
+        "slick-carousel": "^1.8.1",
+        "styled-components": "^5.3.3",
+        "web-vitals": "^1.0.1",
+        "wowjs": "^1.1.3",
+        "yarn.lock": "0.0.1-security"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@react-pdf-viewer/core": "^2.4.1",
+        "@react-pdf-viewer/default-layout": "^2.10.1",
+        "custom-error": "^0.2.1",
+        "pdfjs-dist": "^2.6.347",
+        "react-file-viewer": "^1.2.1"
+    }
+}

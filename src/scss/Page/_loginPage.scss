@@ -1,0 +1,10 @@
+.loginPage {
+  .imgbackgroud {
+    height: 95vh;
+  }
+  @media (max-width: 768px) {
+    .imgbackgroud {
+      height: 55vh;
+    }
+  }
+}
